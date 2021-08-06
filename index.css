@@ -16,8 +16,9 @@ h1{
 }
 
 .profile-image{
-    width: 230px;
+    width: 250px;
     border-radius: 150px;
+    margin-right: 25px;
 }
 
 .imp-text{
@@ -32,6 +33,13 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .main-heading {
+    color: black;
+    width: 90%;
+    max-width: 900px;
+    font-size: 48px;
   }
   
   .heading {
