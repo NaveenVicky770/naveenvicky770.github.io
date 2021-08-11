@@ -8,6 +8,22 @@ h1 {
 }
 
 /* Header section */
+@media screen and (max-width: 370px) {
+  .header {
+    /* height: 100vh; */
+  }
+
+  .profile-image{
+    width:185px !important;
+    
+  }
+
+  .about-section{
+    /* height: 85vh; */
+    font-size: 1rem;
+  }
+}
+
 
 .header-section {
   display: flex;
@@ -46,15 +62,12 @@ h1 {
 
 .skills-heading {
   color: black;
-  width: 90%;
-  max-width: 900px;
   text-align: center;
-  font-size: 48px;
+  font-size: 30px;
 }
 
 .description {
   color: black;
-  margin-bottom: 56px;
   width: 90%;
   max-width: 900px;
   text-align: center;
@@ -71,16 +84,16 @@ h1 {
 
 .card {
   background-color: white;
-  max-width: 250px;
+  /* max-width: 250px; */
   border-radius: 12px;
   padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 28px;
-  padding-left: 28px;
+  /* padding-bottom: 10px; */
+  padding-right: 20px;
+  padding-left: 20px;
   margin-bottom: 24px;
   margin-left: 12px;
   margin-right: 12px;
-  font-size: 18px;
+  font-size: 15px;
   color: #334155;
 }
 
