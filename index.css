@@ -1,6 +1,6 @@
 h1 {
   font-size: 26px;
-  color: #082032;
+  /* color: #082032; */
 }
 
 .brand-name {
@@ -144,6 +144,11 @@ h1 {
 }
 
 /* My Projects section */
+
+.projects-section{
+  background-color: #15294b;
+  color: white;
+}
 
 .cust-card-body {
   background-color: #e9ecef !important;
