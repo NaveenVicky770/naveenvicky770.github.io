@@ -25,6 +25,23 @@ h1 {
   }
 }
 
+.cust-btn{
+  background-color: #15294b;
+  color: white;
+}
+
+.cust-resume-btn{
+  color: #15294b;
+  background-color: transparent;
+  border: 1px solid #15294b;
+}
+
+.cust-resume-btn:hover{
+  background-color: #15294b;
+  color: white;
+}
+
+
 .header-section {
   display: flex;
   flex-direction: row;
@@ -171,6 +188,14 @@ h1 {
 
 /* Footer section */
 
-.cust-footer{
-  background-color: #2C394B;
+.footer-section {
+    background-color: #e9ecef;
+    color: #15294b;
+}
+
+.icon {
+    font-size: 24px;
+    border-radius: 28px;
+    color: #959ead;
+    background-color: #202b36;
 }
