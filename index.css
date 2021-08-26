@@ -66,10 +66,16 @@
   font-weight: bold;
 }
 
+/* Education section */
+
+#education{
+  background-color: #e9ecef;
+}
+
+
 /* Skillls section */
 
 .skills-container {
-  background-color: #e9ecef;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,6 +117,7 @@
   margin-right: 12px;
   font-size: 15px;
   color: #334155;
+  font-weight: bold;
 }
 
 .border-green {
@@ -194,7 +201,7 @@
   font-size: 24px;
   border-radius: 28px;
   color: #959ead;
-  background-color: #202b36;
+  background-color: #15294b;
 }
 
 .git-link {
