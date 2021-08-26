@@ -61,6 +61,9 @@
 }
 
 /* About section */
+.about-heading{
+  color: #15294b;
+}
 
 .imp-text {
   font-weight: bold;
@@ -71,7 +74,9 @@
 #education{
   background-color: #e9ecef;
 }
-
+.education-heading{
+  color: #15294b;
+}
 
 /* Skillls section */
 
@@ -83,7 +88,7 @@
 }
 
 .skills-heading {
-  color: black;
+  color: #15294b;
   text-align: center;
   font-size: 30px;
 }
