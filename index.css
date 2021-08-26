@@ -109,7 +109,7 @@
   max-width: 1200px;
 }
 
-.card {
+.cust-card {
   background-color: white;
   /* max-width: 250px; */
   border-radius: 12px;
@@ -123,6 +123,7 @@
   font-size: 15px;
   color: #334155;
   font-weight: bold;
+  border: 1px solid #ebecee;
 }
 
 .border-green {
@@ -157,7 +158,28 @@
   border-left: 8px solid #e11d48;
 }
 
+
+/* Courses section */
+
+#courses{
+  background-color: #e9ecef;
+}
+
+.dot{
+  width: 15px;
+  height: 15px;
+}
+
 /* Projects section */
+
+.projects-heading{
+  color: white;
+}
+
+.projects-description{
+  font-size: 16px;
+  color: white;
+}
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -175,7 +197,6 @@
 
 .projects-section {
   background-color: #15294b;
-  color: white;
 }
 
 .cust-card-title {
