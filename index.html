@@ -16,8 +16,8 @@
 
 <body>
 
-    <div class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark cust-navbar  fixed-top">
+    <div id="header" class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark cust-navbar">
             <a class="navbar-brand" href="#">
                 <h3 class="brand-name px-2">N</h3>
             </a>
@@ -27,59 +27,71 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" href="#">About Me<span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="#about">About Me<span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="#">Education</a>
                     <a class="nav-link" href="#">Courses & Certifications</a>
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Skills</a>
+                    <a class="nav-link" href="#skills">Skills</a>
                     <a class="nav-link" href="#projects">Projects</a>
                     <a class="nav-link" href="#">Experience</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact-me">Contact</a>
                 </div>
             </div>
         </nav>
 
-        <div class="jumbotron jumbotron-fluid mb-1 mt-5">
-            <div class="container header-section">
-                <img class="profile-image" src="./images/New.jpg" />
-
-                <div class="text-xl-left text-center">
-                    <h1 class="main-heading">Naveen Kumar Veerapalli</h1>
-                    <p class="lead">Full Stack Web developer with MERN Stack Specialization</p>
-                    <hr class="my-4">
-                    <p>I like to try new things, Explore the possibilities and I am in the process of becoming the best
-                        version of myself.
-                    </p>
-                    <a class="btn cust-btn btn-lg" target="_blank" href="https://wa.link/g93ec6" role="button">Hire
-                        Me</a>
-                    <a class="btn cust-resume-btn btn-lg" target="_blank"
-                        href="./resources/Naveen_Kumar Veerapalli_Resume_25-08-2021-20-59-59.pdf" role="button">Check
-                        Resume</a>
+        <div class="header-bg">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-12 col-md-3">
+                        <div class="text-center text-lg-left">
+                            <img class="profile-image" src="./images/New.jpg" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <div class="text-center text-xl-left">
+                            <h1 class="main-heading">Naveen Kumar Veerapalli</h1>
+                            <p class="lead">Full Stack Web developer with <span>MERN</span> Stack Specialization</p>
+                            <hr class="my-4">
+                            <p>I like to try new things, Explore the possibilities and I am in the process of becoming
+                                the
+                                best
+                                version of myself.
+                            </p>
+                            <a class="btn cust-btn btn-lg" target="_blank" href="https://wa.link/g93ec6"
+                                role="button">Hire
+                                Me</a>
+                            <a class="btn cust-resume-btn btn-lg" target="_blank"
+                                href="./resources/Naveen_Kumar Veerapalli_Resume_25-08-2021-20-59-59.pdf"
+                                role="button">Check
+                                Resume</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <div id="about" class="container py-5 about-section">
-        <h4 class="mb-3">About Me</h4>
-        <p class="my-4">👋 Hi, I’m <span class="imp-text">@NaveenVicky770</span>, 3rd Computer Science Student of <span
-                class="imp-text">AP-IIT Ongole (RGUKT Ongole)</span></p>
-        <p class="my-4">- 👀 I’m interested in ...<span class="imp-text">Web development (Full Stack) , App
-                Development</span>
-            and <span class="imp-text">Machine Learning</span></p>
-        <p class="my-4">- 🌱 I’m currently learning ...
-            Full Stack Web development, Specilization in MERN (-<span class="imp-text"> MongoDB, Express, React,
-                NodeJS</span>) stack, @ CCBP
-            intensive(NXTWAVE)</p>
-        <p class="mt-4">- 💞️ I’m looking to collaborate on ...
-            <span class="imp-text">Web Development Projects</span>
-        </p>
-        <!-- <p class="my-4">- 📫 How to reach me ...
-            Phone,No: <span class="imp-text">9505444749</span> (whatsapp),
-            Email: <span class="imp-text">naveenvicky770@gmail.com</span></p> -->
+    <div id="about" class="container about-section">
+        <div class="py-5">
+            <h4 class="mb-3">About Me</h4>
+            <p class="my-4">👋 Hi, I’m <span class="imp-text">@NaveenVicky770</span>, 3rd Computer Science Student of
+                <span class="imp-text">AP-IIT Ongole (RGUKT Ongole)</span>
+            </p>
+            <p class="my-4">👀 I’m interested in ...<span class="imp-text">Web development (Full Stack) , App
+                    Development</span>
+                and <span class="imp-text">Machine Learning</span></p>
+            <p class="my-4">🌱 I’m currently learning ...
+                Full Stack Web development, Specilization in MERN (-<span class="imp-text"> MongoDB, Express, React,
+                    NodeJS</span>) stack, @ CCBP
+                intensive(NXTWAVE)</p>
+            <p class="mt-4">💞️ I’m looking to collaborate on ...
+                <span class="imp-text">Web Development Projects</span>
+            </p>
+        </div>
+
     </div>
 
-    <div class="skills-container ">
+    <div id="skills" class="skills-container">
         <div class="container py-5">
             <h1 class="skills-heading">FullStack Developer</h1>
             <p class="description m-auto">
@@ -129,7 +141,7 @@
 
     <div id="projects" class="projects-section">
 
-        <section class="py-2 text-center container">
+        <section class="container py-2 text-center">
             <div class="row py-lg-3">
                 <div class="col-md-8 mx-auto">
                     <h1>My Major Projects</h1>
@@ -182,7 +194,7 @@
                             <!-- <span class="badge badge-light">Fee payments</span> -->
                             <hr>
                             <a target="_blank" href="http://nexus.rguktong.ac.in/Nexus/ver_new/index.php#"
-                                class="btn cust-btn my-2">Checkout !</a>
+                                class="btn cust-btn my-2">Checkout here!</a>
                         </div>
                     </div>
                 </div>
@@ -231,7 +243,7 @@
                             <!-- <span class="badge badge-dark"></span> -->
 
                             <a target="_blank" href="http://nexus.rguktong.ac.in/Nexus/"
-                                class="btn cust-btn my-2">Checkout !</a>
+                                class="btn cust-btn my-2">Checkout here!</a>
                         </div>
                     </div>
                 </div>
@@ -286,7 +298,7 @@
                             <!-- <span class="badge badge-dark"></span> -->
 
                             <a target="_blank" href="http://nexus.rguktong.ac.in/Nexus/"
-                                class="btn cust-btn my-2">Checkout !</a><span> Needs Login!</span>
+                                class="btn cust-btn my-2">Checkout here!</a><span> Needs Login!</span>
                         </div>
                     </div>
                 </div>
@@ -301,12 +313,11 @@
     </div>
 
 
-    <div class="container-fluid pt-5 pb-5 footer-section">
+    <div id="contact-me" class="container-fluid pt-5 pb-5 footer-section">
         <div class="row text-center">
             <div class="col-12 col-md-5 ">
                 <h1>Naveen Vicky</h1>
                 <div class="mt-3 d-flex justify-content-center">
-                    <a target="_blank" href="https://wa.link/g93ec6"><i class="fab fa-whatsapp m-1 p-3 icon"></i></a>
                     <a target="_blank" href="https://twitter.com/naveenvicky770"><i
                             class="fab fa-twitter m-1 p-3 icon"></i></a>
                     <a target="_blank" href="https://www.instagram.com/naveenvicky770/"><i
@@ -318,12 +329,16 @@
             </div>
             <div class="col-12 col-md-3 mb-3 text-md-left">
                 <h5>Contact Me</h5>
-                <!-- <p>Naveen Kumar Veerapalli</p> -->
                 <div class="mb-3">
                     <i class="fas fa-envelope"></i><span> naveenvicky770@gmail.com</span>
                 </div>
-                <div>
+                <div class="mb-3">
                     <i class="fas fa-phone"></i><span> 9505444749</span>
+                </div>
+                <div>
+                    <a target="_blank" href="https://wa.link/g93ec6">
+                        <i class="fab fa-whatsapp wp-icon"></i><span class="git-link"> Whatsapp</span>
+                    </a>
                 </div>
             </div>
             <div class="col-12 col-md-4 mb-3 text-md-left">
@@ -333,7 +348,7 @@
                 </a>
             </div>
         </div>
-        <hr>
+        <hr class="w-75">
         <p class="text-center text-muted">&copy; 2020 by Naveen, Created with HTML, Bootstrap and CSS</p>
     </div>
 

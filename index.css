@@ -2,9 +2,10 @@
   border: 1px solid red;
 } */
 
-h1 {
-  font-size: 26px;
-  /* color: #082032; */
+/* Header Section */
+
+.header-bg{
+  background-color: #e9ecef;
 }
 
 .brand-name {
@@ -14,19 +15,6 @@ h1 {
 
 .cust-navbar{
   background-color: #15294b !important;
-}
-
-/* Header section */
-@media screen and (max-width: 370px) {
-  
-  .profile-image {
-    width: 185px !important;
-  }
-
-  .about-section {
-    /* height: 85vh; */
-    font-size: 1rem;
-  }
 }
 
 .cust-btn{
@@ -48,18 +36,8 @@ h1 {
   color: white;
 }
 
-
-.header-section {
-  display: flex;
-  flex-direction: row;
-  justify-content:space-around;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
 .main-heading {
   color: black;
-  /* max-width: 900px; */
   font-size: 40px;
 }
 
@@ -169,8 +147,6 @@ h1 {
   }
 }
 
-/* My Projects section */
-
 .projects-section{
   background-color: #15294b;
   color: white;
@@ -213,4 +189,9 @@ h1 {
 
 .git-link:hover{
   text-decoration: none !important;
+}
+
+.wp-icon{
+  color: #15294b;
+  font-weight: bold;
 }
