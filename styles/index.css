@@ -13,6 +13,15 @@
   border: 3px solid white;
 }
 
+/* Navbar */
+
+/* .navbar-fixed {
+  top: 75;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+} */
+
 .cust-navbar {
   background-color: #15294b !important;
 }
@@ -61,7 +70,7 @@
 }
 
 /* About section */
-.about-heading{
+.about-heading {
   color: #15294b;
 }
 
@@ -71,10 +80,10 @@
 
 /* Education section */
 
-#education{
+#education {
   background-color: #e9ecef;
 }
-.education-heading{
+.education-heading {
   color: #15294b;
 }
 
@@ -158,25 +167,24 @@
   border-left: 8px solid #e11d48;
 }
 
-
 /* Courses section */
 
-#courses{
+#courses {
   background-color: #e9ecef;
 }
 
-.dot{
+.dot {
   width: 15px;
   height: 15px;
 }
 
 /* Projects section */
 
-.projects-heading{
+.projects-heading {
   color: white;
 }
 
-.projects-description{
+.projects-description {
   font-size: 16px;
   color: white;
 }
