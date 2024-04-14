@@ -1,0 +1,76 @@
+/* Skillls section */
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-heading {
+    color: #15294b;
+    text-align: center;
+    font-size: 30px;
+}
+
+.description {
+    color: black;
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.cust-card {
+    background-color: white;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 15px;
+    color: #334155;
+    font-weight: bold;
+    border: 1px solid #ebecee;
+}
+
+.border-green {
+    border-left: 8px solid #65a30d;
+}
+
+.border-dark-green {
+    border-left: 8px solid #0d9488;
+}
+
+.border-dark-yellow {
+    border-left: 8px solid #ca8a04;
+}
+
+.border-orange {
+    border-left: 8px solid #ea580c;
+}
+
+.border-blue {
+    border-left: 8px solid #4f46e5;
+}
+
+.border-violet {
+    border-left: 8px solid #9333ea;
+}
+
+.border-pink {
+    border-left: 8px solid #db2777;
+}
+
+.border-red {
+    border-left: 8px solid #e11d48;
+}
